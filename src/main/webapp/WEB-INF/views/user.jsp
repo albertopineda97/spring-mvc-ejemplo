@@ -7,6 +7,8 @@
 <title>User Home Page</title>
 </head>
 <body>
-	<h3>Hi ${userName}</h3>
+	<h3>Hi ${userName} el tiempo es ${fechaNueva}</h3>
+	<h3>el tiempo es ${nuevaFecha}</h3>
+	
 </body>
 </html>
