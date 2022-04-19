@@ -3,14 +3,14 @@ package com.formacion.nttdata.hello.model;
 public class User {
 	String userName;
 	String userSurname;
-	int dig;
+	int dias;
 	
-	public int getDig() {
-		return dig;
+	public int getDias() {
+		return dias;
 	}
 
-	public void setDig(int dig) {
-		this.dig = dig;
+	public void setDig(int dias) {
+		this.dias = dias;
 	}
 
 	public String getUserName() {

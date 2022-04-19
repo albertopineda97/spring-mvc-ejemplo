@@ -45,11 +45,11 @@ public class HomeController {
 	public String user(@Validated User user, Model model,Locale locale) {
 
 		System.out.println("User Page Requested");
-		int dig = user.getDig();
+		int dias = user.getDias();
 		Date date = new Date();
 
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
-		date.setDate(date.getDate() + dig);
+		date.setDate(date.getDate() + dias);
 		String formattedDate = dateFormat.format(date);
 		
 		
